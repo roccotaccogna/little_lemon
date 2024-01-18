@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+* {
+  font-family: 'Righteous', sans-serif;
+}
+
+.logo {
+  margin-top: -20px;
+  width: 150px;
+  margin-right: 100px;
+}
+
+.menu {
+  font-size: large;
+}
+
+.item {
+  margin: 20px;
+}
+
+.index {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+.index:hover{
+  color:black;
+}
+
+.artic {
+  background-color: #6da894;
+  color: black;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.25rem 5rem 1.2rem 5rem;
+  margin-top: -1.4rem;
+}
+
+.texts > h1 {
+  font-size: 3rem;
+}
+
+.texts > h2 {
+  font-size: 2rem;
+}
+
+.image{
+  width: 200px;
+  margin-top: 1rem;
+}
+
+.titleH1{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card{
+  max-width: 400px;
+  margin: 1%;
+}
+.cardImage {
+  object-fit: cover;
+  height: 20vw;
+}
+
+.cardTitle{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.cardTestimonial{
+  max-width: 400px;
+  min-height: 220px;
+  max-height: 220px;
+  margin: 1%;
+  background-color: #6da894;
+}
+
+.sub{
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.text_card {
+  font-style: italic;
+}
+
+.artAbout {
+  background-color: #eeca06;
+  color: black;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.25rem 5rem 1.2rem 5rem;
+  margin-top: 50px;
+}
+
+.logo_footer{
+  margin-left: -40px;
+}
+
+.logoFoot{
+  width: 350px;
+}
+
+.list{
+  display: grid;
+}
+
+.title_footer{
+  font-size: 1.6rem;
+}
+
+.colom {
+  margin-top: 5%;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.links:hover{
+  text-decoration: underline;
+}
+
+.footer {
+  background-color:#6da894;
+}
+
+.social:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.reserve-table {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: -1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-reserve {
+  width: 100vw;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.reserve-header-text {
+  background-color: #6da894;
+  color: black;
+  padding: 1rem 3rem 1rem 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  border-radius: 0.5rem;
+}
+
+.form{
+  display: grid;
+  justify-content: center;
+}
